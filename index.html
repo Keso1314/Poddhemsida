@@ -60,33 +60,33 @@
 
 <!-- Team Container -->
 <div class="w3-container w3-padding-64 w3-center" id="team">
-<h2 id="Team"><b>RANDOM PODDEN</b> </h2>
-<p id="us">These are the amaizing creators and producers of Random Podden</p>
+<h2><b>RANDOM PODDEN</b> </h2>
+<p class="w3-xlarge"	>These are the amaizing creators and producers of Random Podden</p>
 
 <div class="w3-row"><br>
 
-<div class="w3-quarter w3-round-medium" >
-  <img src="images/trueandreas.jpg" class="w3-circle w3-hover-opacitys w3-border-black" alt="Boss" style="width:45%">
+<div class="w3-quarter" >
+  <img src="images/trueandreas.jpg" class="w3-circle w3-border w3-hover-opacity w3-border-black" alt="Boss" style="width:45%">
   <h3>Andreas </h3>
-  <p>The bossy guy</p>
+  <p class ="w3-large"	>The boss</p>
 </div>
 
 <div class="w3-quarter" >
-  <img src="images/trueeskil.jpg" class="w3-circle w3-hover-opacity" alt="Boss" style="width:45%" >
+  <img src="images/trueeskil.jpg" class="w3-circle w3-border w3-hover-opacity w3-border-black" alt="Boss" style="width:45%" >
   <h3>Eskil</h3>
-  <p>Emotional damage</p>
+  <p class ="w3-large">Professor</p>
 </div>
 
 <div class="w3-quarter" >
-  <img src="images/trueleo.jpg" class="w3-circle w3-hover-opacity" alt="Boss" style="width:45%">
+  <img src="images/trueleo.jpg" class="w3-circle w3-border w3-hover-opacity w3-border-black" alt="Boss" style="width:45%">
   <h3>Leo</h3>
-  <p>Abo knas</p>
+  <p class ="w3-large">Supporter</p>
 </div>
 
 <div class="w3-quarter" >
-  <img src="images/truelucas.jpg" class="w3-circle w3-hover-opacity" alt="Boss" style="width:45%">
+  <img src="images/truelucas.jpg" class="w3-circle w3-border w3-hover-opacity w3-border-black" alt="Boss" style="width:45%">
   <h3>Lucas</h3>
-  <p>Fixing good enjoyer</p>
+  <p class ="w3-large">Coder</p>
 </div>
 
 </div>
@@ -96,14 +96,14 @@
 <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
 
 <div class="w3-quarter">
-<h1 id = "ourPodcasts">Our Podcasts</h1>
+<h1>Our Podcasts</h1>
 <p style="font-size:150%;">These are the current podcasts that you can listen to for free! </p>
 <p style="font-size:150%;"> Sign up for a subscription if you wish to listen to more of our amaizing pods!</p>
 </div>
 
 <div class="w3-quarter">
 <div class="w3-card w3-white">
-  <img id = "tiktokPicture" src="images/tiktok.png" alt="Dinmor" style="width:100%;max-height:240px;">
+  <img src="images/tiktok.png" alt="Dinmor" style="width:100%;max-height:240px;">
   <div class="w3-container">
   <h3>The podcast about Tiktok</h3>
   <audio controls> 
@@ -115,9 +115,9 @@
 
 <div class="w3-quarter">
 <div class="w3-card w3-white">
-  <img id ="skyskrapaPicture" src="images/skyskrapa.png" alt="SkySkaper" style="width:100%;max-height:240px;">
+  <img src="images/skyskrapa.png" alt="SkySkaper" style="width:100%;max-height:240px;">
   <div class="w3-container">
-  <h3>The podcast about your mother</h3>
+  <h3>The podcast about Cities</h3>
   <audio controls> 
     <source src="images/podcast.mp4" type="audio/mpeg">
   </audio>
@@ -189,9 +189,42 @@
     </div>
 </div>
 
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Swing by for a cup of coffee, or whatever.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Chicago, US</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +00 1515151515</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  Random.Podden@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme" onclick="">Send </button>
+      </form>
+    </div>
+  </div>
+</div>
+
 
 <!-- Video -->
-<video class="w3-image" autoplay muted loop id="video">
+<video class="w3-image" autoplay muted loop>
   <source src="images/Nature.mp4" type="video/mp4"><br>
 </video>
 
